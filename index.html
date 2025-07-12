@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Petshop Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <div class="tabs">
+        <button id="btn-aba-login" class="tab active">Login</button>
+        <button id="btn-aba-criar" class="tab">Criar Conta</button>
+      </div>
+
+      <form id="form-login" class="form-area active">
+        <input type="email" id="login-email" placeholder="Email" required />
+        <input type="password" id="login-senha" placeholder="Senha" required />
+        <button type="submit">Entrar</button>
+      </form>
+
+      <form id="form-criar" class="form-area">
+        <input type="text" id="criar-nome" placeholder="Nome completo" required />
+        <input type="email" id="criar-email" placeholder="Email" required />
+        <input type="password" id="criar-senha" placeholder="Senha" required />
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="main-app" style="display:none;">
+    <h1>🐕 Gerenciador Petshop</h1>
+
+    <section>
+      <h2>Cadastro de Produto</h2>
+      <form id="produto-form">
+        <input type="text" id="produto-nome" placeholder="Nome" required />
+        <input type="text" id="produto-tipo" placeholder="Tipo" required />
+        <input type="text" id="produto-desc" placeholder="Descrição" required />
+        <input type="number" id="produto-quant" placeholder="Quantidade" required />
+        <input type="number" step="0.01" id="produto-valor" placeholder="Valor (R$)" required />
+        <button type="submit">Cadastrar Produto</button>
+      </form>
+
+      <input type="text" id="busca-produto" placeholder="🔍 Buscar produto..." />
+      <div id="lista-produtos"></div>
+    </section>
+
+    <section>
+      <h2>Usuários</h2>
+      <input type="text" id="busca-usuario" placeholder="🔍 Buscar usuário..." />
+      <div id="lista-usuarios"></div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

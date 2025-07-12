@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: #f2f2f2;
+}
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex; justify-content: center; align-items: center;
+}
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 300px;
+}
+.tabs {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.tab {
+  flex: 1;
+  padding: 0.5rem;
+  background: #eee;
+  border: none;
+  cursor: pointer;
+}
+.tab.active {
+  background: #ccc;
+  font-weight: bold;
+}
+.form-area {
+  display: none;
+}
+.form-area.active {
+  display: block;
+}
+input, button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+.linha {
+  background: white;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
