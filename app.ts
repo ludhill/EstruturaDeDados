@@ -113,7 +113,7 @@ class PetshopApp {
       document.getElementById('btn-aba-login')!.click();
     });
 
-    // Cadastro de Produto
+    //Cadastro de Produto
     (document.getElementById('produto-form') as HTMLFormElement).addEventListener('submit', (e) => {
       e.preventDefault();
       const nome = (document.getElementById('produto-nome') as HTMLInputElement).value.trim();

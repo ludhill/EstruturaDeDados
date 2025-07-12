@@ -95,6 +95,6 @@ Esse projeto foi pensado para atender a todos os requisitos do trabalho de **Est
 - Interface limpa e interativa
 - Validação de dados e controle de entrada
 - Funcionalidades extras como geração de ID e buscas dinâmicas
-- Código modular, comentado e bem estruturado
+- Código modular, comentado e  bem estruturado
 
 ---
