@@ -1,100 +1,104 @@
----
+Claro, Lucas! Aqui está o conteúdo corrigido e pronto para o arquivo `README.md`, sem emojis, sem front matter inválido (`---` no topo), com formatação Markdown adequada e pronto para funcionar com GitHub Pages ou como apresentação do seu projeto:
 
+```markdown
 ## Petshop Manager
 
-Sistema web desenvolvido para gerenciamento de produtos e usuários de um Petshop, utilizando **TypeScript** com **HashTable personalizada**, interface interativa e **persistência em LocalStorage** com objetivo de sanar atividade do curso de 
-estrutura de dados no curso superior em sistemas para interenet do campus 
-ifrn-parnamirim.
+Sistema web desenvolvido para gerenciamento de produtos e usuários de um Petshop, utilizando **TypeScript** com **HashTable personalizada**, interface interativa e **persistência em LocalStorage**. Este projeto atende à atividade da disciplina de Estrutura de Dados do curso superior em Sistemas para Internet do IFRN - Campus Parnamirim.
 
 ---
 
-###  Funcionalidades
+### Funcionalidades
 
--  Modal com abas de Login e Criação de Usuário
--  Cadastro, edição e exclusão de usuários
--  Cadastro, edição, exclusão e listagem de produtos
--  Busca interativa para produtos e usuários
--  Geração automática e incremental de IDs
--  Armazenamento local (LocalStorage)
--  Validações de entrada para segurança e consistência
+- Modal com abas de Login e Criação de Usuário  
+- Cadastro, edição e exclusão de usuários  
+- Cadastro, edição, exclusão e listagem de produtos  
+- Busca interativa para produtos e usuários  
+- Geração automática e incremental de IDs  
+- Armazenamento local (LocalStorage)  
+- Validações de entrada para segurança e consistência  
 
 ---
 
 ### Requisitos Técnicos
 
-| Recurso | Necessário? | Observações |
-|--------|-------------|-------------|
-| Visual Studio Code | V | Recomendado como editor |
-| Node.js + npm | V | Para compilar TypeScript |
-| Extensão TypeScript | V | Já incluída no Node |
-| Extensão Live Server | V | Executa interface no navegador |
-| TypeScript compilado via `tsc` | V | Gera o arquivo `app.js` |
-| Nenhuma dependência externa | V | Projeto 100% client-side |
+| Recurso                        | Necessário? | Observações                          |
+|-------------------------------|-------------|--------------------------------------|
+| Visual Studio Code            | Sim         | Editor de código recomendado         |
+| Node.js + npm                 | Sim         | Necessário para compilar TypeScript  |
+| TypeScript (via npm)          | Sim         | Já incluído ao instalar o Node.js    |
+| Extensão Live Server (VS Code)| Sim         | Executa o `index.html` no navegador  |
+| Compilação TypeScript via `tsc`| Sim        | Gera o arquivo `app.js`              |
+| Dependências externas         | Não         | Projeto 100% client-side             |
 
 ---
 
-###  Como rodar o projeto localmente
+### Como rodar o projeto localmente
 
 #### 1. Clone ou baixe o projeto
 
-```
+```bash
 git clone https://github.com/seuusuario/petshop-app
 ```
 
-#### 2. Instale o TypeScript globalmente (se necessário)
+Ou baixe o repositório como arquivo `.zip`.
+
+#### 2. Instale o TypeScript globalmente (caso ainda não tenha)
 
 ```bash
 npm install -g typescript
 ```
 
-#### 3. Gere o arquivo `app.js` a partir de `app.ts`
+#### 3. Compile o código TypeScript para gerar `app.js`
 
 ```bash
 tsc --watch
 ```
 
-Isso cria (e atualiza automaticamente) `app.js` na mesma pasta, conforme você modifica o código TypeScript.
+> O arquivo `app.js` será gerado e atualizado automaticamente conforme você salva o `app.ts`.
 
 #### 4. Execute com Live Server
 
-- Clique com botão direito no `index.html` → **"Open with Live Server"**
-- O navegador abrirá o sistema e tudo estará funcional
+- Abra o projeto no Visual Studio Code  
+- Clique com o botão direito sobre o `index.html`  
+- Selecione **"Open with Live Server"**
 
 ---
 
-###  Estrutura de Arquivos
+### Estrutura de Arquivos
 
 ```
 petshop-app/
-├── index.html          # Interface HTML principal
-├── styles.css          # Estilo visual da aplicação
-├── app.ts              # Lógica escrita em TypeScript
-├── app.js              # Código compilado (gerado automaticamente)
+├── index.html          # Interface principal
+├── styles.css          # Estilos visuais
+├── app.ts              # Código em TypeScript
+├── app.js              # Código compilado em JavaScript
 ├── tsconfig.json       # Configuração do compilador TypeScript
 └── README.md           # Documentação do projeto
 ```
 
 ---
 
-###  Requisitos Avaliativos Atendidos
+### Requisitos Avaliativos Atendidos
 
-| Critério | Pontuação Máxima | Situação |
-|---------|------------------|----------|
-| Uso correto de HashTable personalizada    | 15 pts    | tem |
-| Interface funcional (HTML + TypeScript)   | 10 pts    | tem |
-| Operações CRUD completas                  | 10 pts    | tem |
-| Organização, clareza e criatividade       | 5 pts     | tem |
+| Critério                                        | Pontuação Máxima | Situação |
+|------------------------------------------------|------------------|----------|
+| Uso correto de HashTable personalizada         | 15 pontos        | Atendido |
+| Interface funcional (HTML + TypeScript)        | 10 pontos        | Atendido |
+| Operações CRUD completas                       | 10 pontos        | Atendido |
+| Organização, clareza e criatividade            | 5 pontos         | Atendido |
+
+---
+
+### Observações finais
+
+Este projeto foi desenvolvido com foco didático para ilustrar conceitos de estrutura de dados aplicados à construção de sistemas web. Ele demonstra:
+
+- Aplicação prática da estrutura HashTable personalizada  
+- Manipulação interativa com DOM e formulários  
+- Persistência de dados sem necessidade de backend  
+- Interface amigável com validações e buscas em tempo real  
+- Organização modular e código escalável para evolução futura
 
 ---
 
-###  Observações finais
-
-Esse projeto foi pensado para atender a todos os requisitos do trabalho de **Estrutura de Dados aplicada ao desenvolvimento web** com TypeScript. Inclui:
-
-- Estrutura central baseada em HashTable
-- Interface limpa e interativa
-- Validação de dados e controle de entrada
-- Funcionalidades extras como geração de ID e buscas dinâmicas
-- Código modular, comentado e  bem estruturado
-
----
+Para dúvidas ou sugestões, contribua via GitHub ou entre em contato com o autor.
