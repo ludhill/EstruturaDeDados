@@ -1,6 +1,6 @@
 ---
 
-## 🐶 Petshop Manager
+## Petshop Manager
 
 Sistema web desenvolvido para gerenciamento de produtos e usuários de um Petshop, utilizando **TypeScript** com **HashTable personalizada**, interface interativa e **persistência em LocalStorage** com objetivo de sanar atividade do curso de 
 estrutura de dados no curso superior em sistemas para interenet do campus 
@@ -8,32 +8,32 @@ ifrn-parnamirim.
 
 ---
 
-### 📌 Funcionalidades
+###  Funcionalidades
 
-- 🔐 Modal com abas de Login e Criação de Usuário
-- 🧑‍🤝‍🧑 Cadastro, edição e exclusão de usuários
-- 📦 Cadastro, edição, exclusão e listagem de produtos
-- 🔎 Busca interativa para produtos e usuários
-- 🆔 Geração automática e incremental de IDs
-- 💾 Armazenamento local (LocalStorage)
-- ✅ Validações de entrada para segurança e consistência
+-  Modal com abas de Login e Criação de Usuário
+-  Cadastro, edição e exclusão de usuários
+-  Cadastro, edição, exclusão e listagem de produtos
+-  Busca interativa para produtos e usuários
+-  Geração automática e incremental de IDs
+-  Armazenamento local (LocalStorage)
+-  Validações de entrada para segurança e consistência
 
 ---
 
-### 🛠️ Requisitos Técnicos
+### Requisitos Técnicos
 
 | Recurso | Necessário? | Observações |
 |--------|-------------|-------------|
-| Visual Studio Code | ✅ | Recomendado como editor |
-| Node.js + npm | ✅ | Para compilar TypeScript |
-| Extensão TypeScript | ✅ | Já incluída no Node |
-| Extensão Live Server | ✅ | Executa interface no navegador |
-| TypeScript compilado via `tsc` | ✅ | Gera o arquivo `app.js` |
-| Nenhuma dependência externa | ✅ | Projeto 100% client-side |
+| Visual Studio Code | V | Recomendado como editor |
+| Node.js + npm | V | Para compilar TypeScript |
+| Extensão TypeScript | V | Já incluída no Node |
+| Extensão Live Server | V | Executa interface no navegador |
+| TypeScript compilado via `tsc` | V | Gera o arquivo `app.js` |
+| Nenhuma dependência externa | V | Projeto 100% client-side |
 
 ---
 
-### 🚀 Como rodar o projeto localmente
+###  Como rodar o projeto localmente
 
 #### 1. Clone ou baixe o projeto
 
@@ -62,7 +62,7 @@ Isso cria (e atualiza automaticamente) `app.js` na mesma pasta, conforme você m
 
 ---
 
-### 📂 Estrutura de Arquivos
+###  Estrutura de Arquivos
 
 ```
 petshop-app/
@@ -76,18 +76,18 @@ petshop-app/
 
 ---
 
-### 🧪 Requisitos Avaliativos Atendidos
+###  Requisitos Avaliativos Atendidos
 
 | Critério | Pontuação Máxima | Situação |
 |---------|------------------|----------|
-| Uso correto de HashTable personalizada    | 15 pts    | ✅ |
-| Interface funcional (HTML + TypeScript)   | 10 pts    | ✅ |
-| Operações CRUD completas                  | 10 pts    | ✅ |
-| Organização, clareza e criatividade       | 5 pts     | ✅ |
+| Uso correto de HashTable personalizada    | 15 pts    | tem |
+| Interface funcional (HTML + TypeScript)   | 10 pts    | tem |
+| Operações CRUD completas                  | 10 pts    | tem |
+| Organização, clareza e criatividade       | 5 pts     | tem |
 
 ---
 
-### 🎓 Observações finais
+###  Observações finais
 
 Esse projeto foi pensado para atender a todos os requisitos do trabalho de **Estrutura de Dados aplicada ao desenvolvimento web** com TypeScript. Inclui:
 
