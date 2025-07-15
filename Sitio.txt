@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Petshop App — Gestão Simplificada</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fefefe;
+      color: #333;
+    }
+    header {
+      background: #2b7fb8;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    .section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #2b7fb8;
+      margin-bottom: 1rem;
+    }
+    .feature-list {
+      list-style: none;
+      padding: 0;
+    }
+    .feature-list li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #ccc;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cta a {
+      background: #2b7fb8;
+      color: white;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      padding: 2rem 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Petshop App</h1>
+    <p>Simplifique sua gestão. Agende, registre e organize com eficiência.</p>
+  </header>
+
+  <section class="section">
+    <h2>O problema</h2>
+    <p>Petshops enfrentam desafios diários com agendamentos, atendimentos e controle de demanda. Muitos ainda usam papel ou mensagens dispersas, sem histórico, sem organização e com risco de erros nos horários.</p>
+  </section>
+
+  <section class="section">
+    <h2>A solução</h2>
+    <p>O Petshop App oferece uma interface intuitiva para registrar atendimentos, salvar serviços por cliente e gerar uma agenda visual que pode ser impressa, exportada ou consultada em tempo real.</p>
+  </section>
+
+  <section class="section">
+    <h2>Principais funcionalidades</h2>
+    <ul class="feature-list">
+      <li>Registro de agendamento com nome, data, hora e serviço</li>
+      <li>Visualização em tempo real dos atendimentos</li>
+      <li>Exportação dos dados em arquivo</li>
+      <li>Impressão de agenda diária em PDF</li>
+      <li>Interface adaptada para celular e computador</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Benefícios para seu petshop</h2>
+    <p>Profissionalismo, organização e controle — seu cliente vai perceber a diferença já na recepção. Equipes mais ágeis, informações centralizadas e autonomia para crescer com dados confiáveis.</p>
+  </section>
+
+  <section class="section">
+    <h2>Depoimento</h2>
+    <p>"Desde que começamos a usar o Petshop App, nossos agendamentos ficaram claros, os clientes confiam mais e nosso fluxo melhorou. O atendimento ficou rápido e a impressão da ficha ajuda na comunicação com a equipe." — Gerente, PetMax</p>
+  </section>
+
+  <section class="cta">
+    <a href="#">Quero testar o Petshop App</a>
+  </section>
+
+  <footer>
+    Desenvolvido por Lucas Félix. Interface otimizada com Copilot.
+  </footer>
+</body>
+</html>
